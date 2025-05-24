@@ -1,2 +1,27 @@
-# Text-Summarizer
-A Python-based Text Summarization project that leverages Natural Language Processing (NLP) techniques to automatically generate concise summaries from long passages of text. This project includes both extractive and abstractive summarization models with a user-friendly interface and modular code structure.
+# 📝 Text Summarizer CLI Tool
+
+A simple Python command-line tool that summarizes long English text using basic NLP techniques.
+
+## 🚀 Features
+- Summarizes any English text file
+- Uses `nltk` for NLP
+- Easy to use and modify
+
+## 🔧 How to Use
+
+```bash
+pip install -r requirements.txt
+python summarizer.py
+```
+
+Put your input in `sample.txt`. The summary will be printed in the terminal.
+
+## 📦 Dependencies
+
+- nltk
+
+## 🤝 Contributing
+PRs welcome!
+
+## 📄 License
+MIT
